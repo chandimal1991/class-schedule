@@ -169,3 +169,8 @@
 	.modal form label {
 		font-weight: normal;
 	}	
+    .pic{    
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+}

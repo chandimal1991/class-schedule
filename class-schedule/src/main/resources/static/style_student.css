@@ -7,9 +7,7 @@
 		background: #f5f5f5;
 		font-family: 'Varela Round', sans-serif;
 		font-size: 13px;
-	}
-	
-	
+	}	
 	.table-wrapper {
         background: #fff;
         padding: 0 25px;
@@ -19,13 +17,26 @@
     }
 	.table-title {        
 		padding-bottom: 15px;
-		background: #cccccc;
+		background: #435d7d;
 		color: #fff;
 		padding: 16px 30px;
 		margin: -20px -25px 10px;
 		border-radius: 3px 3px 0 0;
     }
-
+    .table-title h2 {
+		margin: 5px 0 0;
+		font-size: 24px;
+	}
+    .header-std{
+        float: left;
+        margin-top: 2px;
+    }
+    .header-add{
+        float: right;
+    }
+	.table-title .btn-group {
+		float: right;
+	}
 	.table-title .btn {
 		color: #fff;
 		float: left;
@@ -169,11 +180,16 @@
 		font-weight: normal;
 	}	
     .addStd{
-    float: right;
+     float: right;
      margin: 5px -550px;
     }
-.search-box{
+    .search-box{
     margin-top: 2rem;
     margin-left: 32rem;
+}
+    .pic{    
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
 }
 
